@@ -7,7 +7,6 @@
 **Finding Lane Lines on the Road**
 
 [//]: # (Image References)
-
 [image1]: ./test_images/solidWhiteCurve.jpg "solidWhiteCurve"
 [image2]: ./test_images_output/solidWhiteCurve.jpg "processedSolidWhiteCurve"
 ---

@@ -7,7 +7,7 @@
 **Finding Lane Lines on the Road**
 
 
-[image1]: ./test_images/solidWhiteCurve.jpg "solidWhiteCurve" =250x
+[image1]: (./test_images/solidWhiteCurve.jpg "solidWhiteCurve" =250x)
 
 [image2]: ./test_images_output/solidWhiteCurve.jpg "processedSolidWhiteCurve"
 ---

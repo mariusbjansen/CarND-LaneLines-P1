@@ -1,23 +1,22 @@
 # **Finding Lane Lines on the Road** 
-
-## Writeup 
-
----
-
-**Finding Lane Lines on the Road**
-
-
-
-
-[image2]: ./test_images_output/solidWhiteCurve.jpg "processedSolidWhiteCurve"
 ---
 
 ### Reflection
+In this project the goal was to create a pipieline extracting lane lines from images and drawing them.
+Later a video sequence was used to further improve the processing chain.
 
 ### 1. Pipeline
 
+My pipeline constists of 8 steps
 
-explain how you modified the draw_lines() function.
+## STEP 1 Grayscale conversion
+## STEP 2 Color selection (threshold filter)
+## STEP 3 Defining region of interest (ROI)
+## STEP 4 Applying a gaussian blur
+## STEP 5 Detect edges with Canny edge detector
+## STEP 6 Detect lines by Hough transformation
+## STEP 7 Overlay the original image with the detected lines
+## STEP 8 Save the result
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
@@ -25,7 +24,9 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-<img src="test_images/solidWhiteCurve.jpg" width="200">
+explain how you modified the draw_lines() function.
+
+<img src="test_images/solidWhiteCurve.jpg" width="300">
 
 
 ### 2. Shortcoming 

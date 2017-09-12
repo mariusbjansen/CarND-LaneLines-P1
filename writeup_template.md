@@ -7,7 +7,7 @@
 **Finding Lane Lines on the Road**
 
 
-[image1]: ./test_images/solidWhiteCurve.jpg "solidWhiteCurve"
+[image1]: ./test_images/solidWhiteCurve.jpg "solidWhiteCurve" =250x
 
 [image2]: ./test_images_output/solidWhiteCurve.jpg "processedSolidWhiteCurve"
 ---
@@ -25,7 +25,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-![alt text][image1] { width: 200px; }
+![alt text][image1]
 
 
 ### 2. Shortcoming 

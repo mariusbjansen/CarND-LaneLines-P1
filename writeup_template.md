@@ -1,12 +1,12 @@
 # **Finding Lane Lines on the Road** 
----
 
-### Reflection
+## Reflection
 In this project the goal was to create a pipieline extracting lane lines from images and drawing them.
 Later a video sequence was used to further improve the processing chain.
 
 Example image
 <img src="test_images/solidWhiteCurve.jpg" width="300">
+
 Example result
 <img src="test_images_output/solidWhiteCurve.jpg" width="300">
 
@@ -14,7 +14,7 @@ Example result
 
 My pipeline constists of 8 steps
 
-#### STEP 1 Grayscale conversion
+#### STEP 1 ##### Grayscale conversion
 #### STEP 2 Color selection (threshold filter)
 #### STEP 3 Defining region of interest (ROI)
 #### STEP 4 Applying a gaussian blur
@@ -23,11 +23,6 @@ My pipeline constists of 8 steps
 #### STEP 7 Overlay the original image with the detected lines
 #### STEP 8 Save the result
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-explain how you modified the draw_lines() function.
 
 
 ### 2. Shortcoming 
